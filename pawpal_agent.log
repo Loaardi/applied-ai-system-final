@@ -7,3 +7,21 @@
 2026-05-02 19:36:52,067 [pawpal.knowledge_base] INFO: Retrieved breed-specific data: Dog/Labrador Retriever
 2026-05-02 19:36:52,070 [pawpal.agent] INFO: Retrieved data from 'Dog/Labrador Retriever' (confidence=0.95)
 2026-05-02 19:36:52,073 [pawpal.agent] INFO: Care plan generated (confidence=0.87, tasks=6, warnings=0, time=7ms)
+2026-05-02 20:38:32,382 [pawpal.knowledge_base] INFO: KnowledgeBase initialized with 5 species
+2026-05-02 20:38:32,385 [pawpal.agent] INFO: PawPalAgent initialized
+2026-05-02 20:40:12,692 [pawpal.knowledge_base] INFO: KnowledgeBase initialized with 5 species
+2026-05-02 20:40:12,696 [pawpal.agent] INFO: PawPalAgent initialized
+2026-05-02 20:41:30,544 [pawpal.knowledge_base] INFO: KnowledgeBase initialized with 5 species
+2026-05-02 20:41:47,615 [pawpal.knowledge_base] INFO: KnowledgeBase initialized with 5 species
+2026-05-02 20:42:00,566 [pawpal.knowledge_base] INFO: KnowledgeBase initialized with 5 species
+2026-05-02 20:42:00,580 [pawpal.agent] INFO: Generating care plan for ScoobyDoo (Dog, breed=None)
+2026-05-02 20:42:00,583 [pawpal.knowledge_base] INFO: Retrieved species defaults for Dog
+2026-05-02 20:42:00,584 [pawpal.agent] INFO: Retrieved data from 'Dog/_default' (confidence=0.70)
+2026-05-02 20:42:00,585 [pawpal.agent] INFO: Care plan generated (confidence=0.55, tasks=4, warnings=0, time=6ms)
+2026-05-02 20:42:13,008 [pawpal.knowledge_base] INFO: KnowledgeBase initialized with 5 species
+2026-05-02 20:42:13,168 [pawpal.knowledge_base] INFO: KnowledgeBase initialized with 5 species
+2026-05-02 20:42:21,655 [pawpal.knowledge_base] INFO: KnowledgeBase initialized with 5 species
+2026-05-02 20:42:32,971 [pawpal.knowledge_base] INFO: KnowledgeBase initialized with 5 species
+2026-05-02 20:42:50,418 [pawpal.knowledge_base] INFO: KnowledgeBase initialized with 5 species
+2026-05-02 20:42:56,281 [pawpal.knowledge_base] INFO: KnowledgeBase initialized with 5 species
+2026-05-02 20:42:59,840 [pawpal.knowledge_base] INFO: KnowledgeBase initialized with 5 species
