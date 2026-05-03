@@ -16,7 +16,7 @@ The system follows a five-layer pipeline:
 
 1. **Streamlit UI** — The user enters owner/pet information, manages tasks manually, or asks the AI assistant for help. This is the single entry point for all interactions.
 
-2. **AI Agent** (`ai_agent.py`) — The agentic core. When a user requests a care plan, the agent: (a) parses the request, (b) retrieves relevant knowledge from the RAG knowledge base, (c) reasons about the pet's needs and schedule constraints, and (d) generates a personalized daily plan with explanations. It uses the Anthropic Claude API for language generation.
+2. **AI Agent** (`ai_agent.py`) — The agentic core. When a user requests a care plan, the agent: (a) parses the request, (b) retrieves relevant knowledge from the RAG knowledge base, (c) reasons about the pet's needs and schedule constraints, and (d) generates a personalized daily plan with explanations. Responses are grounded in the knowledge base data rather than an external language model.
 
 3. **Knowledge Base / RAG** (`knowledge_base.py`) — A local JSON data store containing breed-specific care information: feeding schedules, exercise requirements, grooming frequency, health notes, and enrichment ideas for common pet types. The agent queries this store by species and breed before generating any recommendation, ensuring responses are grounded in structured data rather than hallucinated.
 
@@ -92,10 +92,10 @@ Based on Golden Retriever care guidelines, here's your recommended schedule:
   20:00 — Grooming check — Brush coat to manage shedding (Goldens shed heavily).
           Check ears for moisture/infection (floppy ears = higher risk).
 
-⚠️ Health note: Golden Retrievers are prone to hip dysplasia and ear infections.
+Health note: Golden Retrievers are prone to hip dysplasia and ear infections.
    Regular vet checkups recommended every 6 months.
 
-📋 3 tasks auto-added to your schedule. Review and edit below.
+3 tasks auto-added to your schedule. Review and edit below.
 ```
 
 ### Example 2: Asking for Advice on an Existing Schedule

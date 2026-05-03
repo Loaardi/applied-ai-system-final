@@ -1,0 +1,9 @@
+2026-05-02 19:36:27,588 [pawpal.knowledge_base] INFO: KnowledgeBase initialized with 5 species
+2026-05-02 19:36:27,590 [pawpal.agent] INFO: PawPalAgent initialized
+2026-05-02 19:36:43,776 [pawpal.knowledge_base] INFO: KnowledgeBase initialized with 5 species
+2026-05-02 19:36:49,749 [pawpal.knowledge_base] INFO: KnowledgeBase initialized with 5 species
+2026-05-02 19:36:52,034 [pawpal.knowledge_base] INFO: KnowledgeBase initialized with 5 species
+2026-05-02 19:36:52,066 [pawpal.agent] INFO: Generating care plan for Mochi (Dog, breed=Labrador Retriever)
+2026-05-02 19:36:52,067 [pawpal.knowledge_base] INFO: Retrieved breed-specific data: Dog/Labrador Retriever
+2026-05-02 19:36:52,070 [pawpal.agent] INFO: Retrieved data from 'Dog/Labrador Retriever' (confidence=0.95)
+2026-05-02 19:36:52,073 [pawpal.agent] INFO: Care plan generated (confidence=0.87, tasks=6, warnings=0, time=7ms)
